@@ -446,3 +446,19 @@
     line-height: 33px;
   }
 }
+
+/* Animation */
+
+.rotating {
+		-webkit-animation: rotation 40s infinite linear;
+/* 		transition: .5s ease; */
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
